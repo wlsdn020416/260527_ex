@@ -1,0 +1,43 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .hex { fill: #f8f4e3; stroke: #d4b89c; stroke-width: 1.5; }
+      .piece { fill: #8b4513; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="200" height="200" fill="#fdf6e3"/>
+  
+  <!-- Hexagonal board pattern (7 hexagons) -->
+  <g>
+    <!-- Center hex -->
+    <polygon class="hex" points="100,85 115,98 115,123 100,136 85,123 85,98"/>
+    
+    <!-- Top hex -->
+    <polygon class="hex" points="100,55 115,68 115,93 100,106 85,93 85,68"/>
+    
+    <!-- Bottom hex -->
+    <polygon class="hex" points="100,115 115,128 115,153 100,166 85,153 85,128"/>
+    
+    <!-- Top-right hex -->
+    <polygon class="hex" points="115,68 130,81 130,106 115,119 100,106 100,81"/>
+    
+    <!-- Bottom-right hex -->
+    <polygon class="hex" points="115,128 130,141 130,166 115,179 100,166 100,153"/>
+    
+    <!-- Top-left hex -->
+    <polygon class="hex" points="85,68 100,81 100,106 85,119 70,106 70,81"/>
+    
+    <!-- Bottom-left hex -->
+    <polygon class="hex" points="85,128 100,141 100,166 85,179 70,166 70,153"/>
+  </g>
+  
+  <!-- Some game pieces -->
+  <circle class="piece" cx="100" cy="100" r="6"/>
+  <circle class="piece" cx="115" cy="98" r="5"/>
+  <circle class="piece" cx="85" cy="123" r="5"/>
+  
+  <!-- Border -->
+  <rect width="199" height="199" x="0.5" y="0.5" fill="none" stroke="#e8d5b4" stroke-width="2"/>
+</svg>
