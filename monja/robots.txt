@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://wlsdn020416.github.io/260527_ex/sitemap.xml
+Sitemap: https://wlsdn020416.github.io/260527_ex/monja/sitemap.xml
