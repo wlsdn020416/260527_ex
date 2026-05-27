@@ -85,12 +85,12 @@ If starting from scratch:
 
 ## Build And Test Commands
 
-There is no established stack yet. After the first implementation is added, update this section with the real commands.
+This is a static HTML project using Bootstrap, vanilla JavaScript, and custom CSS.
 
-Common examples, depending on the chosen stack:
+Use these commands for local checks:
 
-- Static HTML: open `index.html` directly in a browser or serve with `python3 -m http.server`.
-- Vite or similar: install dependencies, run the local dev server, and run the project's lint/build commands.
+- Start local server: `python3 -m http.server 8000`
+- Open page: `http://localhost:8000/`
 
 Before finishing frontend work, verify the page visually on desktop and mobile widths.
 
